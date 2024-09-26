@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yaml-Tools.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yaml-Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yaml-Tools.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yaml-Tools.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yaml-Tools.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\bin\Debug\net8.0\DSCS-Yaml-Tools.exe
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\bin\Debug\net8.0\DSCS-Yaml-Tools.deps.json
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\bin\Debug\net8.0\DSCS-Yaml-Tools.runtimeconfig.json
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\bin\Debug\net8.0\DSCS-Yaml-Tools.dll
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\bin\Debug\net8.0\DSCS-Yaml-Tools.pdb
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yam.4C9FEE2B.Up2Date
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yaml-Tools.dll
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\refint\DSCS-Yaml-Tools.dll
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yaml-Tools.pdb
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\DSCS-Yaml-Tools.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Code\C#\DSCS-Yaml-Tools\DSCS-Yaml-Tools\obj\Debug\net8.0\ref\DSCS-Yaml-Tools.dll

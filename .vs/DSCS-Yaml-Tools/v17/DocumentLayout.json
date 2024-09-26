@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54C89EB9-E763-47BE-9ED7-6A421B00B173}|Solution Items{54C89EB9-E763-47BE-9ED7-6A421B00B173}|C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\S2N.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C89EB9-E763-47BE-9ED7-6A421B00B173}|Solution Items{54C89EB9-E763-47BE-9ED7-6A421B00B173}|solutionrelative:S2N.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1902D62C-A663-4678-8DF9-521A79DC7277}|DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj|c:\\users\\admin\\desktop\\code\\c#\\dscs-yaml-tools\\dscs-yaml-tools\\dscs-yaml-tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1902D62C-A663-4678-8DF9-521A79DC7277}|DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj|solutionrelative:dscs-yaml-tools\\dscs-yaml-tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1902D62C-A663-4678-8DF9-521A79DC7277}|DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj|c:\\users\\admin\\desktop\\code\\c#\\dscs-yaml-tools\\dscs-yaml-tools\\messagescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1902D62C-A663-4678-8DF9-521A79DC7277}|DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj|solutionrelative:dscs-yaml-tools\\messagescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1902D62C-A663-4678-8DF9-521A79DC7277}|DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj|c:\\users\\admin\\desktop\\code\\c#\\dscs-yaml-tools\\dscs-yaml-tools\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1902D62C-A663-4678-8DF9-521A79DC7277}|DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj|solutionrelative:dscs-yaml-tools\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S2N.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\S2N.cs",
+              "RelativeDocumentMoniker": "S2N.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\S2N.cs",
+              "RelativeToolTip": "S2N.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:08:22.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DSCS-Yaml-Tools",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj",
+              "RelativeDocumentMoniker": "DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj",
+              "RelativeToolTip": "DSCS-Yaml-Tools\\DSCS-Yaml-Tools.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-24T23:05:29.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageScript.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\DSCS-Yaml-Tools\\MessageScript.cs",
+              "RelativeDocumentMoniker": "DSCS-Yaml-Tools\\MessageScript.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\DSCS-Yaml-Tools\\MessageScript.cs",
+              "RelativeToolTip": "DSCS-Yaml-Tools\\MessageScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T23:06:29.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\DSCS-Yaml-Tools\\Program.cs",
+              "RelativeDocumentMoniker": "DSCS-Yaml-Tools\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Code\\C#\\DSCS-Yaml-Tools\\DSCS-Yaml-Tools\\Program.cs",
+              "RelativeToolTip": "DSCS-Yaml-Tools\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T23:04:54.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
