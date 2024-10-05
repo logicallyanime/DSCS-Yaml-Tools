@@ -11,7 +11,7 @@ using System.Linq;
 
 public class Scene
 {
-    private string SceneName { get; set; }
+    public string SceneName { get; set; }
 	public  List<Message> Messages { get; set; } = new List<Message>();
 
 	public string GetSceneName(string scenePath){
@@ -78,15 +78,14 @@ public class Scene
 
 		// Aplly change made to the yaml to base file
 		Messages = Messages.Select(msg => {
+			ogMsgsEnum.MoveNext();
 			if(ogMsgsEnum.Current.MsgId != msg.MsgId){
 				throw new Exception($"Message ID {msg.MsgId} does not match {ogMsgsEnum.Current.MsgId}");
 			}
 			ogMsgsEnum.Current.eng = msg.eng;
 			ogMsgsEnum.Current.jpn = msg.jpn;
 			ogMsgsEnum.Current.engc = msg.engc;
-			msg = ogMsgsEnum.Current;
-			ogMsgsEnum.MoveNext();
-			return msg;
+			return ogMsgsEnum.Current;
 		}).ToList();
 	}
 
@@ -103,16 +102,31 @@ public class Scene
 	}
 
 	// TODO: Write a CSV Dumper Function
-	public void DumpCsv(){}
+	public void DumpCsv(string moddedDsdbDir){
+
+		if (SceneName == null)
+			throw new Exception("Scene Name is null");
+		var csvDir = Path.Join(moddedDsdbDir, SceneName + ".mbe");
+		if (!Directory.Exists(csvDir))
+			Directory.CreateDirectory(csvDir);
+		
+		var csvPath = Path.Join(csvDir, "Sheet1.csv");
+
+		using var writer = new StreamWriter(csvPath, false, Encoding.UTF8);
+		using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture)){
+			csv.WriteRecords(Messages);
+		}
+	}
 }
 
 public class Message {
-
+	[Index(0)]
 	[Name("ID")]
 	public int MsgId { get; set; }
 
 
 	private string? _speaker;
+	[Index(1)]
     [Name("Speaker")]
     public string? Speaker { 
 		get => _speaker;
@@ -128,23 +142,29 @@ public class Message {
 	[Ignore]
 	public string? SpeakerName { get; set; }
 
+	[Index(2)]
     [Name("Japanese")]
 	public string? jpn { get; set; }
 
+	[Index(3)]
 	[Name("English")]
 	public string? eng { get; set; }
 
+	[Index(4)]
 	[Name("Chinese")]
 	[YamlIgnore]
 	public string? chn { get; set; }
 
+	[Index(5)]
 	[Name("EnglishCensored")]
 	public string? engc { get; set; }
 
+	[Index(6)]
 	[Name("Korean")]
 	[YamlIgnore]
 	public string? kor { get; set; }
 
+	[Index(7)]
 	[Name("German")]
 	[YamlIgnore]
 	public string? ger { get; set; }
