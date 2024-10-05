@@ -3,15 +3,21 @@ using System.Globalization;
 using System.Text;
 using CsvHelper.Configuration.Attributes;
 
-public class NameDb
+public static class NameDb
 {
-	public  List<SpeakerName> Names { get; set; } = new List<SpeakerName>();
-	public NameDb()
+	public static  List<SpeakerName> Names { get; set; } = new List<SpeakerName>();
+	static NameDb()
 	{
 		using var reader = new StreamReader("./DSDB/text/charname.mbe/Sheet1.csv", Encoding.UTF8);
         using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
-        	this.Names = csv.GetRecords<SpeakerName>().ToList();
+        	Names = csv.GetRecords<SpeakerName>().ToList();
     }
+
+	public static SpeakerName GetName(int id){
+		var spkr = Names.Find(x => x.Id == id);
+		if(spkr != null) return spkr;
+		throw new Exception($"Speaker {id} not found");
+	}
 }
 
 public class SpeakerName {
